@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <!-- ICONE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /><meta charset="UTF-8">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" type="text/css" media="all" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaBottegaDelGelato</title>
+</head>
+<body>
+    <header id="header">
+        <div class="bg-blue">
+            <a href="#"><img src="img/logo.jpg" alt="logo"></a>
+        </div>
+        <div class="arrow">
+        </div>
+    </header>
+
+
+    <div id="jumbo">
+    </div>
+
+    <main>
+        <div class="seo-text">
+            <h1 class="text-color">La Bottega del Gelato</h1>
+            <p>Benvenuti nella nostra gelateria artigianale, nata nel 1989  è il luogo ideale per una pausa golosa durante la giornata o per una merenda con <span class="text-color">amici e familiari</span>. La gelateria è famosa per la sua atmosfera accogliente e per la sua cortesia, che rendono ogni visita un'esperienza unica. Alla<span class="text-color"> Bottega del gelato</span> troverete sempre prodotti di alta qualità, preparati con ingredienti freschi e genuini, seguendo ricette tradizionali e innovative al tempo stesso. Offriamo una <span class="text-color">vasta scelta di gusti</span> di gelato, dai più classici ai più particolari, ma sempre con la stessa attenzione per la qualità dei nostri ingredienti.</p>
+            <!-- <p>Situata nel cuore del Orzivecchi, la Bottega del Gelato è il <strong>luogo ideale</strong> per una pausa golosa durante la giornata o per una merenda con <strong>amici e familiari</strong>. <br>
+            La gelateria è famosa per la sua atmosfera accogliente e per la sua cortesia, che rendono ogni visita un'<strong>esperienza unica</strong>.
+            </p> -->
+            <img src="img/vaschetta_piccola.png" alt="vaschetta" width="350px">
+        </div>
+        <div class="ice-banner">
+        </div>
+        <div class="menu">
+            <h1 class="text-color">Cosa offriamo</h1>
+            <ul>
+                <li><img src="img/icon/cono.png" alt="cono"><h3>Cono</h3></li>
+                <li><img src="img/icon/coppetta.png" alt="coppetta" style="width:50px"><h3>Coppetta</h3></li>
+                <li><img src="img/icon/bowl.png" alt="bowl"><h3>Vaschette</h3></li>
+                <li><img src="img/icon/cake.png" alt="cake"><h3>Torte</h3></li>
+                <li><img src="img/icon/cookie.png" alt=""><h3>Biscotti</h3></li>
+            </ul>
+            <p>
+                Oltre al gelato, potrete gustare anche altre prelibatezze, come le <span class="text-color">torte e i dolci artigianali</span>, tutti preparati con la stessa passione e maestria che ci contraddistingue da anni. Vi invitiamo a venirci a trovare nel nostro nuovo e rinnovato locale, per assaporare la vera esperienza di una <span class="text-color">gelateria artigianale</span> che sa coniugare tradizione e innovazione, qualità e passione per il gusto. Vi aspettiamo!  
+            </p>
+            <img src="img/vetrina.jpg" alt="vetrina">
+        </div>
+        <div class="orari">
+            <h1>Orari</h1>
+            <!-- <img style="width: 100%" src="img/orari.jpg" alt="orari"> -->
+            <table>
+                <tr>
+                    <td colspan="7">
+                        Lunedì
+                    </td>
+                    <td>
+                        Chiuso
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="7">Martedì-Venerdì</td>
+                    <td>14:30 - 22:00</td>
+                </tr>
+                <tr>
+                    <td colspan="7">Sabato</td>
+                    <td>11:00 - 12:30/<br>14:30 - 22:00</td>
+                </tr>
+                <tr>
+                    <td colspan="7">Domenica</td>
+                    <td>11:00 - 22:00</td>
+                </tr>
+                
+            </table>
+        </div>
+    </main>
+    
+    <footer class="m-bg-blue">
+        
+        <h2>La Bottega Del Gelato</h2>
+        <p> dal 1989</p>
+        <div class="contact">
+            <h4>Via Giuseppe Pastori, 42, 25030 Orzivecchi BS</h4>
+            <h4>Telefono: <a href="tel:342 339 9789">&nbsp;342 339 9789</a></h4>
+        </div>
+        <div class="contact-link">
+            <img src="img/logo.jpg" alt="logo">        
+            <a href="https://www.instagram.com/labottegadelgelato_orzivecchi/" target="_blank"><i class="fa-brands fa-instagram fa-2x"></i></a>   
+        </div>
+    </footer>
+    <!-- SCRIPT -->
+    <script>
+        // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+            document.getElementById("header").style.display = "block";
+            } else {
+                document.getElementById("header").style.display = "none";
+          }
+        }
+    </script>
+</body>
+</html>
